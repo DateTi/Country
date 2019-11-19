@@ -1,0 +1,19 @@
+{
+    "name": "dateti/country",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Jan Galek",
+            "email": "admin@gcore.cz"
+        }
+    ],
+    "require": {
+        "php": ">= 7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "DateTi\\Country\\": "src/"
+        }
+    }
+}
